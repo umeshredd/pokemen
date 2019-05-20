@@ -4,4 +4,4 @@ COPY package.json /home/niveus/pokedex/
 RUN npm install
 COPY . /home/niveus/pokedex/
 CMD npm start
-EXPOSE 3000
+EXPOSE 8080
